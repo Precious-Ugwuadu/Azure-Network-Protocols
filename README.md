@@ -33,10 +33,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Actions and Observations</h2>
 
-![image](https://github.com/user-attachments/assets/36374b6b-3bcf-49f2-a48c-16f6f5eb3f39)
-
-
 <p>
+  ![image](https://github.com/user-attachments/assets/4b874336-dfc1-4224-8540-6d53e71b6622)
+  ![image](https://github.com/user-attachments/assets/7dff34c9-23a2-4b39-9dc7-97a589dfd241)
+
+
 <img src="https://i.imgur.com/DJmEXEB.png " " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
