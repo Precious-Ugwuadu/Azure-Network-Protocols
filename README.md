@@ -37,12 +37,17 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
   
   ![image](https://github.com/user-attachments/assets/4b874336-dfc1-4224-8540-6d53e71b6622)
 
- ![image](https://github.com/user-attachments/assets/2f5f5b56-d179-45d7-8bfd-ebc9c541f03f)
- 
-  
+  ![image](https://github.com/user-attachments/assets/2f5f5b56-d179-45d7-8bfd-ebc9c541f03f)
+
+  ![image](https://github.com/user-attachments/assets/15668165-073f-4015-9a48-57263ea4277a)
+
+   
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To begin, start by creating a Resource Group to organize your resources.
+Create a Windows 10 VM and allow it to set up a new Virtual Network and Subnet.
+Next, create a Linux (Ubuntu) VM using the same Resource Group and the same Virtual Network/Subnet.
+Use a username and password for Linux authentication so both VMs can connect on the same network.
 </p>
 <br />
 
