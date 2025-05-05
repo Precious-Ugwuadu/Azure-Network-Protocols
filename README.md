@@ -67,7 +67,17 @@ Next, we will install Wireshark to serve as our protocol analyzer. It will help 
 </p>
 <br />
 
+
 ![image](https://github.com/user-attachments/assets/6434bd01-08ef-4ce6-b490-b72efcf5ad6e)
+
+![image](https://github.com/user-attachments/assets/812eacbc-b3f9-40d4-82bc-5f522019e730)
+
+![image](https://github.com/user-attachments/assets/1e7932ce-fd73-4773-b471-85215341f48d)
+
+![image](https://github.com/user-attachments/assets/0acb4245-1969-46d8-959e-9960f003bb23)
+
+
+
 
 
 <p>
