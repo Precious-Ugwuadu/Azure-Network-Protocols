@@ -67,6 +67,7 @@ Next, we will install Wireshark to serve as our protocol analyzer. It will help 
 </p>
 <br />
 
+![image](https://github.com/user-attachments/assets/6434bd01-08ef-4ce6-b490-b72efcf5ad6e)
 
 
 <p>
