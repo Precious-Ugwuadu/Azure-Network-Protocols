@@ -44,7 +44,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
    
 </p>
 <p>
-To begin, start by creating a Resource Group to organize your resources.
+You can start by creating a Resource Group to organize your resources.
 Create a Windows 10 VM and allow it to set up a new Virtual Network and Subnet.
 Next, create a Linux (Ubuntu) VM using the same Resource Group and the same Virtual Network/Subnet.
 Use a username and password for Linux authentication so both VMs can connect on the same network.
@@ -52,6 +52,8 @@ Use a username and password for Linux authentication so both VMs can connect on 
 <br />
 
 <p>
+
+  "C:\Users\pc\OneDrive\Pictures\Screenshots\remote desktop.png" 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
