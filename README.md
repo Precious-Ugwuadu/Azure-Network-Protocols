@@ -52,6 +52,7 @@ Use a username and password for Linux authentication so both VMs can connect on 
 <br />
 
 <p>
+  
 ![image](https://github.com/user-attachments/assets/2ce95ba5-7e02-4e54-96f5-e86ff3374bc2)
 
 
