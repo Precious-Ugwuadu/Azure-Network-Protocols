@@ -67,6 +67,13 @@ Next, we will install Wireshark to serve as our protocol analyzer. It will help 
 </p>
 <br />
 
+
+
+<p>
+</p>
+
+<p>
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
