@@ -52,8 +52,11 @@ Use a username and password for Linux authentication so both VMs can connect on 
 <br />
 
 <p>
+![image](https://github.com/user-attachments/assets/2ce95ba5-7e02-4e54-96f5-e86ff3374bc2)
 
-  "C:\Users\pc\OneDrive\Pictures\Screenshots\remote desktop.png" 
+
+
+
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
