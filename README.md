@@ -71,13 +71,17 @@ Next, I installed Wireshark to serve as our protocol analyzer. It will help us e
 ![image](https://github.com/user-attachments/assets/14cd6ddd-6d85-44b2-96ca-1a8714d60fbe)
 
 
-At this stage, I began packet capturing by selecting the Ethernet interface and clicking the Wireshark icon to monitor network traffic in the background. Essentially, I am inspecting the traffic on the Windows VM1.
+At this stage, I began packet capturing by selecting the Ethernet interface and clicking the Wireshark icon to monitor network traffic in the background. Essentially, I am inspecting the traffic on the Windows VM1. 
 
 ![image](https://github.com/user-attachments/assets/6434bd01-08ef-4ce6-b490-b72efcf5ad6e)
 
 Next, I typed ICMP in the search bar to filter for ICMP traffic. ICMP is what "ping" uses to test connectivity between devices, and this will show me only ICMP traffic. Furthermore, I will go to the Azure portal and copy the Linux-VM private IP address, open PowerShell "ping" VM2, and I will be able to see ICMP traffic in Wireshark and inspect it. The screenshot above shows the request and reply received from Linux and Windows computers.  
 
+Filtering helps me isolate and view specific network traffic. 
+
 ![image](https://github.com/user-attachments/assets/812eacbc-b3f9-40d4-82bc-5f522019e730)
+
+
 
 ![image](https://github.com/user-attachments/assets/1e7932ce-fd73-4773-b471-85215341f48d)
 
