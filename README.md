@@ -79,6 +79,10 @@ Next, I typed ICMP in the search bar to filter for ICMP traffic. ICMP is what "p
 
 Filtering helps me isolate and view specific network traffic. 
 
+![image](https://github.com/user-attachments/assets/80da13ea-a516-48bf-a34a-d20d53c54d74)
+
+Next, I will configure a firewall (this will help me get a good intuition of what’s happening in the background). First, I’ll initiate a nonstop ping from the Linux VM to the Ubuntu VM by typing "ping 10.0.0.5 -t" in PowerShell, and this will keep pinging continuously.
+
 ![image](https://github.com/user-attachments/assets/812eacbc-b3f9-40d4-82bc-5f522019e730)
 
 
