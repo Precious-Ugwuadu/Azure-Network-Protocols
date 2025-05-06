@@ -85,6 +85,27 @@ Next, I will configure a firewall (this will help me get a good intuition of wha
 
 ![image](https://github.com/user-attachments/assets/812eacbc-b3f9-40d4-82bc-5f522019e730)
 
+Next, I will open the network Firewall "Ubuntu VM" and disable incoming ICMP traffic. I will configure the Linux-VM cloud Firewall and tell it to block all incoming ping traffic. 
+
+HOW DO I DO THIS?
+
+ - Go to the Azure Portal
+
+ - Search for “Virtual Machines”
+
+ - Select your Linux VM from the list.
+
+ - In the Linux-VM menu, scroll down and click “Networking.”
+
+ - Under Network Settings, find “Network Security Group” and click on the link linux-vm-nsg. This is the firewall for your Linux VM.
+
+ - In the NSG (Network Security Group) menu, click on “Inbound security rules.”
+
+ - Click the “Add” button to create a new rule.
+
+      
+
+
 
 
 ![image](https://github.com/user-attachments/assets/1e7932ce-fd73-4773-b471-85215341f48d)
