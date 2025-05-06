@@ -103,12 +103,13 @@ HOW DO I DO THIS?
 
  - Click the “Add” button to create a new rule.
 
-      
+I set the Action to deny, set priority to 290 to put it above 300, and 290 will be evaluated first. 
 
-
-
-
+   
 ![image](https://github.com/user-attachments/assets/1e7932ce-fd73-4773-b471-85215341f48d)
+
+With the above rules set, ICMP traffic from any source will be denied. Once the rule takes effect, it will start timing out
+
 
 ![image](https://github.com/user-attachments/assets/0acb4245-1969-46d8-959e-9960f003bb23)
 
