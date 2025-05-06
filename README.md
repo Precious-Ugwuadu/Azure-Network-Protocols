@@ -55,20 +55,22 @@ Use a username and password for Linux authentication so both VMs can connect on 
   
 ![image](https://github.com/user-attachments/assets/2ce95ba5-7e02-4e54-96f5-e86ff3374bc2)
 
-Next, we will use Remote Desktop to connect to our VM by navigating to the VM in the Azure Portal, copying its public IP address, and signing in through the Remote Desktop application.  
+I useed Remote Desktop to connect to our VM by navigating to the VM in the Azure Portal, copying its public IP address, and signing in through the Remote Desktop application.  
 
 
 ![image](https://github.com/user-attachments/assets/d65afa4d-fb45-4d1b-bdaa-0fa50c4fad7e)
 
 </p>
 <p>
-Next, we will install Wireshark to serve as our protocol analyzer. It will help us examine network traffic  and observe communication between the two VMS, allowing us to view incoming and outgoing traffic on our VM.
+Next, I installed Wireshark to serve as our protocol analyzer. It will help us examine network traffic  and observe communication between the two VMS, allowing us to view incoming and outgoing traffic on our VM.
   
 </p>
 <br />
 
 
 ![image](https://github.com/user-attachments/assets/6434bd01-08ef-4ce6-b490-b72efcf5ad6e)
+
+At this stage, I started packet capturing by clicking the Wireshark icon and seeing the network traffic at the back end. So, basically, what I am doing here is inspecting the traffic in Windows VM1. 
 
 ![image](https://github.com/user-attachments/assets/812eacbc-b3f9-40d4-82bc-5f522019e730)
 
