@@ -113,6 +113,7 @@ With the above rules set, ICMP traffic from any source will be denied. Once the 
 
 ![image](https://github.com/user-attachments/assets/0acb4245-1969-46d8-959e-9960f003bb23)
 
+While observing Wireshark, I stopped seeing requests and replies, and all I could see were requests because no response was found; the Firewall blocked them out. If I go back and delete the "Deny" rule, it will start allowing the replies to happen again. Type Ctrl-C to stop the ping activity. 
 
 
 
