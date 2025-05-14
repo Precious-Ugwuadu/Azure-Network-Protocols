@@ -117,9 +117,8 @@ While observing Wireshark, I stopped seeing requests and replies, and all I coul
 
 ![image](https://github.com/user-attachments/assets/f915ed7c-4f83-47e3-b976-84b8b668194e)
 
-
-
-
+Here, i am obsering SSH traffic by getting the public IP address of the windows VM from Azure portal. SSH is used to make a secure connection from one computer to another. It uses TCP port 22. i went to windows computer and made an SSH connection into the linux computer and the observed the traffic. In powershell i typed "ssh labuser@ 10.0.0.5" which is linux-VM private IP address. 
+       Whatever i type, traffic will be sent to linux-VM througha secure channel. I am in windows-VM but i am connected to linux-VM through SSH. All the traffic in SSH is actually encrypted.
 
 <p>
 </p>
