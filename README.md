@@ -44,10 +44,10 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
    
 </p>
 <p>
-You can start by creating a Resource Group to organize your resources.
+To begin, i started by creating a Resource Group to organize my resources.
 Create a Windows 10 VM and allow it to set up a new Virtual Network and Subnet.
-Next, create a Linux (Ubuntu) VM using the same Resource Group and the same Virtual Network/Subnet.
-Use a username and password for Linux authentication so both VMs can connect on the same network.
+Next, i created a Linux (Ubuntu) VM using the same Resource Group and the same Virtual Network/Subnet.
+i Used a username and password for Linux authentication so both VMs can connect on the same network.
 </p>
 <br />
 
@@ -81,13 +81,13 @@ Filtering helps me isolate and view specific network traffic.
 
 ![image](https://github.com/user-attachments/assets/80da13ea-a516-48bf-a34a-d20d53c54d74)
 
-Next, I will configure a firewall (this will help me get a good intuition of what’s happening in the background). First, I’ll initiate a nonstop ping from the Linux VM to the Ubuntu VM by typing "ping 10.0.0.5 -t" in PowerShell, and this will keep pinging continuously.
+Next, I configured a firewall (this will help me get a good intuition of what’s happening in the background). First, I’ll initiate a nonstop ping from the Linux VM to the Ubuntu VM by typing "ping 10.0.0.5 -t" in PowerShell, and this will keep pinging continuously.
 
 ![image](https://github.com/user-attachments/assets/812eacbc-b3f9-40d4-82bc-5f522019e730)
 
-Next, I will open the network Firewall "Ubuntu VM" and disable incoming ICMP traffic. I will configure the Linux-VM cloud Firewall and tell it to block all incoming ping traffic. 
+Next, I opened the network Firewall "Ubuntu VM" and disable incoming ICMP traffic. I will configure the Linux-VM cloud Firewall and tell it to block all incoming ping traffic. 
 
-HOW DO I DO THIS?
+The Steps i took are:
 
  - Go to the Azure Portal
 
@@ -97,7 +97,7 @@ HOW DO I DO THIS?
 
  - In the Linux-VM menu, scroll down and click “Networking.”
 
- - Under Network Settings, find “Network Security Group” and click on the link linux-vm-nsg. This is the firewall for your Linux VM.
+ - Under Network Settings, find “Network Security Group” and click on the link linux-vm-nsg. T(his is the firewall for your Linux VM).
 
  - In the NSG (Network Security Group) menu, click on “Inbound security rules.”
 
@@ -113,7 +113,7 @@ With the above rules set, ICMP traffic from any source will be denied. Once the 
 
 ![image](https://github.com/user-attachments/assets/0acb4245-1969-46d8-959e-9960f003bb23)
 
-While observing Wireshark, I stopped seeing requests and replies, and all I could see were requests because no response was found; the Firewall blocked them out. If I go back and delete the "Deny" rule, it will start allowing the replies to happen again. Type Ctrl-C to stop the ping activity. 
+While observing Wireshark, I stopped seeing requests and replies, and all I could see were requests because no response was found; the Firewall blocked them out. If I go back and delete the "Deny" rule, it will start allowing the replies to happen again. Type Ctrl-C in powershell to stop the ping activity. 
 
 ![image](https://github.com/user-attachments/assets/f915ed7c-4f83-47e3-b976-84b8b668194e)
 
