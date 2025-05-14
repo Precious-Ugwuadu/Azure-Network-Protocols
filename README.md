@@ -140,9 +140,16 @@ The above picture illustrates the client requesting an IP address, receiving an 
 
 ![image](https://github.com/user-attachments/assets/a88b15ee-6154-4591-a2c9-1aae0ddf8fcf)
 
+I also observed DNS traffic by typing "DNS" in powershell. Then i typed nslookup disney.com and the nslookup query retrieved an IP address from a DNS server that is not the primary source for the domain information.
+     All DNS does is to resolve human readable names into IP addresses. 
+
 ![image](https://github.com/user-attachments/assets/f287784e-73d0-45ff-a257-27a34bf8eecd)
 
+i copied the IP address, pasted it in the browser and i got the above image. i can see disney logo but it didn't open the website because i can't just load a website with an IP address.
+
 ![image](https://github.com/user-attachments/assets/c4a9b033-378a-4975-b8a6-a4877d5d9238)
+
+To conclude this lab, I analyzed RDP traffic using a filter for TCP port 3389, which is the standard port used by the Remote Desktop Protocol. I observed a continuous stream of packets, which is expected, as RDP maintains a live session by constantly transmitting graphical interface data between the client and host systems. This allows users to remotely access and control another computer's desktop environment in real time.
 
 
 
