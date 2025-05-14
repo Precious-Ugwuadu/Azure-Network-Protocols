@@ -117,8 +117,8 @@ While observing Wireshark, I stopped seeing requests and replies, and all I coul
 
 ![image](https://github.com/user-attachments/assets/f915ed7c-4f83-47e3-b976-84b8b668194e)
 
-Here, i am obsering SSH traffic by getting the public IP address of the windows VM from Azure portal. SSH is used to make a secure connection from one computer to another. It uses TCP port 22. i went to windows computer and made an SSH connection into the linux computer and the observed the traffic. In powershell i typed "ssh labuser@ 10.0.0.5" which is linux-VM private IP address. 
-       Whatever i type, traffic will be sent to linux-VM througha secure channel. I am in windows-VM but i am connected to linux-VM through SSH. All the traffic in SSH is actually encrypted.
+Here, i am obsering SSH traffic by getting the public IP address of the windows VM from Azure portal. SSH is used to make a secure connection from one computer to another. It uses TCP port 22. i went to windows computer and made an SSH connection into the linux computer and then observed the traffic. In powershell i typed "ssh labuser@ 10.0.0.5" which is linux-VM private IP address. 
+       Whatever i typed traffic was sent to linux-VM through a secure channel. I am in windows-VM but i am connected to linux-VM through SSH. All the traffic in SSH is actually encrypted.
 
 <p>
 </p>
@@ -128,8 +128,15 @@ Here, i am obsering SSH traffic by getting the public IP address of the windows 
 <p>
   
 ![image](https://github.com/user-attachments/assets/ad9de5f0-ac1b-4ae5-b06f-d6146a65ea2a)
+
+At this point, i was observing DHCP traffic by creating a .bat file and i ran ".\dhcp.bat" in powershell. DHCP uses UDP port 67 and 68. This protocol is used to assign IP address to devices when they are first connected to the network. By typing "ipconfig/renew" in powershell, this command will drop the IP address that the computer has and will automatically broadcast for a new IP address. 
+    Basically, what happened in the above picture is that when release occoured, the packet was sent from the source computer (windows-VM) to the destination computer which is the DHCP server in Azure. The 255.255.255.255 means broadcast. 
   
 ![image](https://github.com/user-attachments/assets/d0327954-eb86-4276-9875-d188712285bd) 
+
+The above picture illustrates the client requesting an IP address, receiving an offer, acknowledging it, and eventually releasing the IP address.
+
+
 
 ![image](https://github.com/user-attachments/assets/a88b15ee-6154-4591-a2c9-1aae0ddf8fcf)
 
